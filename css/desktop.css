@@ -1,0 +1,30 @@
+@media screen and (min-width: 401px){
+    
+    .card{
+        width: 600px;
+        height: 450px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        box-shadow: 21px 25px 30px -16px rgba(0,0,0,0.75);
+        
+    }
+   
+    .left-card{
+        width: calc(600px/2);
+        height: inherit;
+        margin-right: 30px;
+    }
+    .right-card{
+        width:260px;
+        height: inherit;
+        margin-right: 30px;
+    }
+    .continue-button{
+        margin-top: 20px;
+    }
+    footer{
+    position: absolute;
+    bottom: 0;
+}
+}

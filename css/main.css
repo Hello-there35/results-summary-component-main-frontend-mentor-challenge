@@ -1,0 +1,185 @@
+@font-face {
+    font-family: "HankenGrotesk" ;
+    src: url('../assets/fonts/HankenGrotesk-VariableFont_wght.ttf');
+}
+/* scss variables */
+:root{
+    --text-wght: 500;
+    --text-ital: 0;
+
+    --h2-wght: var(--text-wght) + 200;
+    --h2-ital: 0;
+
+    /* h1 variables */
+    --h1-wght: var(--text-wght) + 300;
+    --h1-ital: 0;
+}
+
+/* normal html css properties */
+*{
+    font-family: "HankenGrotesk";
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: 
+    'wght' var(--text-wght),
+    'ital' var(--text-ital);
+}
+h1{
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: 
+    'wght' var(--h1-wght),
+    'ital' var(--h1-ital);
+}
+h2{
+    font-weight: normal;
+    font-style: normal;
+    font-variation-settings: 
+    'wght' var(--h2-wght),
+    'ital' var(--h2-ital);
+}
+h3{
+  font-weight: normal;
+    font-style: normal;
+    font-variation-settings: 
+    'wght' var(--h2-wght),
+    'ital' var(--h2-ital);  
+    font-size: 21px;
+}
+body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    }
+p{
+    color:hsl(241, 100%, 89%);
+    font-size: 18px;
+}
+
+/* custom classes */
+.card{
+    
+    border-radius: 15px;
+    animation: moveIn 4s cubic-bezier(0.165, 0.84, 0.44, 1)
+}
+.left-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    float: left;
+   
+}
+#your-result-heading{
+   color:hsl(241, 100%, 89%); 
+}
+.right-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 0.5rem;
+   
+}
+.sub-result-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    border-radius: 10px;
+    width: 100%;
+}
+.result-left{
+    display: flex;
+    flex-direction: row;
+    float: left;
+}
+.result-right{
+    float: right;
+}
+.circle-box{
+    width: 190px;
+    height: 190px;
+}
+.circle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(hsla(256, 72%, 46%, 1),hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+    width: 190px;
+    height: 190px;
+    align-items: normal;
+    animation: circle-increase 2s ;
+
+}
+
+
+.score{
+    font-size: 60px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       color: white;
+}
+.message{
+    width: 80%;
+}
+.continue-button{
+    width: 100%;
+    padding: 12px 0;
+    border-radius: 30px;
+    color: white;
+    background-color:hsl(224, 30%, 27%);
+    border: none;
+    font-size: 20px;
+}
+.continue-button:hover{
+    background-color: hsla(256, 72%, 46%, 1);
+}
+.result{
+    display: flex;
+    flex-direction: row;
+}
+.result-highlight{
+    color: black;
+    font-variation-settings:
+    'wght' 800;
+    margin-right: 5px;
+}
+.icon-result{
+    margin: 0 10px;
+}
+.result-left{
+        width: 100px;
+}
+.result-right{
+        width: 100px;
+        float: right;
+}
+/* Keyframes / animations */
+@keyframes circle-increase {
+    0%{
+        width: 100px;
+        height: 100px;
+    }
+    100%{
+          width: 190px;
+          height: 190px;
+    }
+}
+ @keyframes moveIn {
+        0%{
+            transform: translateX(-100%)
+        }
+        100%{
+            transform: translateX(0%)
+        }
+    }
+

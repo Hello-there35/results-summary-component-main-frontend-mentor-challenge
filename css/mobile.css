@@ -1,0 +1,34 @@
+@media screen and (max-width: 400px) {
+    
+    .sub-result-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 90%;
+    }
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-bottom: 20px;
+    }
+    .right-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding-left: 10%;
+        gap: 20px;
+    }
+    .result-left{
+        width: 100px;
+    }
+    .result-right{
+        width: 100px;
+        float: right;
+    }
+    .continue-button{
+        width: 90%;
+    }
+
+}
