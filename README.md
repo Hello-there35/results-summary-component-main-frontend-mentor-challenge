@@ -34,7 +34,7 @@ Users should be able to:
 ## Desktop active state
 ![desktop active state](./assets/screenshots/desktop-design.png)
 ## Mobile
-<div class="center"><img src="./assets/screenshots/Mobile-design.png"></div>
+<div class="center"><img src="./assets/screenshots/Mobile-design.png" style="height: 200px"></div>
 
 ### Links
 
