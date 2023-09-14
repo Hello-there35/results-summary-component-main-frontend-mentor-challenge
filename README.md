@@ -29,12 +29,12 @@ Users should be able to:
 
 ### Screenshots
 
-## Desktop
+### Desktop
 ![desktop design](./assets/screenshots/desktop-design.png)
-## Desktop active state
+### Desktop active state
 ![desktop active state](./assets/screenshots/desktop-design.png)
-## Mobile
-<div class="center"><img src="./assets/screenshots/Mobile-design.png" style="height: 200px"></div>
+### Mobile
+<div align ="center"><img src="./assets/screenshots/Mobile-design.png" style="height: 600px"></div>
 
 ### Links
 
@@ -83,8 +83,6 @@ resultSide.innerHTML += '<button class="continue-button">Continue</button>'
 
 I want to somehow make that when scaling the size of the screen the size of the fonts decrease as it goes down to make it more responsive. I would like to include and use more animations in my future projects. I am also thinking of adding jquery to my next projects to make it more interactive. I may also be looking at using bootstrap, tailwind css or other css frameworks to improve my workflow
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
 ### Useful resources
 
 - [W3schools](https://www.w3schools.com/css/css3_animations.asp) - Helped with animations
@@ -94,7 +92,7 @@ I want to somehow make that when scaling the size of the screen the size of the 
 ## Author
 
 
-- Frontend Mentor - [@Hello-there 35](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [@Hello-there 35](https://www.frontendmentor.io/profile/Hello-there35)
 
 
 
