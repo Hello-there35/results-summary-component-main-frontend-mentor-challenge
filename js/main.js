@@ -7,7 +7,7 @@ for (let i = 0; i < getResults.length; i++) {
     resultSide.innerHTML += `
     <div class="sub-result-container" style="background-color:${getResults[i].backgroundColour}">
     <div class="result-left">
-    <img class="icon-result" name="category-image" src="${getResults[i].icon}" alt="${getResults[i].category}-icon ">
+    <img class="icon-result" src="${getResults[i].icon}" alt="${getResults[i].category}-icon ">
     <p class="sub-result-text" style="color:${getResults[i].colour}">
       ${getResults[i].category}
     </p>
